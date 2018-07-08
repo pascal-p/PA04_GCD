@@ -1,0 +1,7 @@
+.R*
+*.zip
+data/FUCI_HAR_Dataset.zip
+data/UCI_HAR_Dataset/*
+*.html
+raw_data*.txt
+tidy_data_10299x81.txt
