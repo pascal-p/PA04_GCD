@@ -43,7 +43,7 @@ Variable name    |             Full description              | Range |
 |                             |                                                           | SITTING, STANDING  |
 |                             |                                                           | LAYING             |
 | TimeBodyAccMean.X           | time body acceleration mean on X                          | cf. below          |
-| TimeBodyAccMean.Y           | time body acceleration mean on Y                          | "    "             |
+| TimeBodyAccMean.Y           | time body acceleration mean on Y                          | cf. below          |
 | TimeBodyAccMean.Z           | time body acceleration mean on Z                          | "    "             |
 | TimeBodyAccStd.X            | time body acceleration std dev on X                  | "    "             |
 | TimeBodyAccStd.Y            | time body acceleration std dev on Y             | "    "             |
@@ -99,14 +99,14 @@ Variable name    |             Full description              | Range |
 | FreqBodyAccJerkStd.Y        | frequence body acceleration jerk mean on Y                | "    "             |
 | FreqBodyAccJerkStd.Z        | frequence body acceleration jerk mean on Z                | "    "             |
 | FreqBodyAccJerkMeanFreq.X   | frequence body acceleration jerk mean frequence on X      | "    "             |
-| FreqBodyAccJerkMeanFreq.Y   | frequence body acceleration jerk mean frequence on Y                                                          |                    |
-| FreqBodyAccJerkMeanFreq.Z   | frequence body acceleration jerk mean frequence on Z                                                          |                    |
+| FreqBodyAccJerkMeanFreq.Y   | frequence body acceleration jerk mean frequence on Y      | "    "                   |
+| FreqBodyAccJerkMeanFreq.Z   | frequence body acceleration jerk mean frequence on Z      | "    "                   |
 | FreqBodyGyroMean.X          | frequence body gyroscope mean on X                        | "    "             |
 | FreqBodyGyroMean.Y          | frequence body gyroscope mean on Y                        | "    "             |
 | FreqBodyGyroMean.Z          | frequence body gyroscope mean on Y=Z                      | "    "             |
-| FreqBodyGyroStd.X           | frequence body gyroscope std dev on X                | "    "             |
-| FreqBodyGyroStd.Y           | frequence body gyroscope std dev on Y                | "    "             |
-| FreqBodyGyroStd.Z           | frequence body gyroscope std dev on Z                | "    "             |
+| FreqBodyGyroStd.X           | frequence body gyroscope std dev on X                     | "    "             |
+| FreqBodyGyroStd.Y           | frequence body gyroscope std dev on Y                     | "    "             |
+| FreqBodyGyroStd.Z           | frequence body gyroscope std dev on Z                     | "    "             |
 | FreqBodyGyroMeanFreq.X      | frequence body gyroscope mean frequence on X              | "    "             |
 | FreqBodyGyroMeanFreq.Y      | frequence body gyroscope mean frequence on Y              | "    "             |
 | FreqBodyGyroMeanFreq.Z      | frequence body gyroscope mean frequence on Z              | "    "             |
