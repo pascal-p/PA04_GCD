@@ -15,7 +15,7 @@ output:
 # Original Data
   The original dat set is available from:
   
-  - http://archive.ics.uci.edu/ml/data sets/Human+Activity+Recognition+Using+Smartphones and also  
+  - https://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones and also  
   
   - https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
   
@@ -418,7 +418,8 @@ source("run_analysis.R")
 [1] "dim dataset: 180x81"
 ```
 
-  - Result file `tidy_data_summary_180x81.txt` should be available. **Please note, this text file is semi-column separated**
+  - Result file `tidy_data_summary_180x81.txt` should be available.  
+  **Please note, this text file is semi-column separated**.
   
 ## Some details about file `tidy_data_summary_180x81.txt`
 ```r
@@ -512,7 +513,7 @@ Classes ‘grouped_df’, ‘tbl_df’, ‘tbl’ and 'data.frame':	180 obs. of 
 
 ## Loading result data file 
 
-  Execute:
+  Execute (note: separator is the semi-column):
 ```r
 dfr <- read.table("tidy_data_summary_180x81.txt", sep=';', dec = ".", header=TRUE)
 
