@@ -25,7 +25,7 @@ output:
 # Final tidy data set - variables and summary
   This summarizes the variables used in the final tiny data set, called `tidy_data_summary_180x81.txt`.
 
-  The final tidy data set is composed of 81 variables, details are given in section "Variables and summary" below.  
+  The final tidy data set is composed of 81 variables, details below.   
   
   No units per se.
 
@@ -43,73 +43,73 @@ Variable name    |             Full description              | Range |
 |                             |                                                           | SITTING, STANDING  |
 |                             |                                                           | LAYING             |
 | TimeBodyAccMean.X           | time body acceleration mean on X                          | cf. below          |
-| TimeBodyAccMean.Y           | time   "       "         "  on Y                          | "    "             |
-| TimeBodyAccMean.Z           | time   "       "         "  on Z                          | "    "             |
-| TimeBodyAccStd.X            | time body acceleration mean std dev on X                  | "    "             |
-| TimeBodyAccStd.Y            | time   "       "         "   "   "  on Y                  | "    "             |
-| TimeBodyAccStd.Z            | time   "       "         "   "   "  on Z                  | "    "             |
+| TimeBodyAccMean.Y           | time body acceleration mean on Y                          | "    "             |
+| TimeBodyAccMean.Z           | time body acceleration mean on Z                          | "    "             |
+| TimeBodyAccStd.X            | time body acceleration std dev on X                  | "    "             |
+| TimeBodyAccStd.Y            | time body acceleration std dev on Y             | "    "             |
+| TimeBodyAccStd.Z            | time body acceleration std dev on Z              | "    "             |
 | TimeGravityAccMean.X        | time gravity acceleration mean on X                       | "    "             |
-| TimeGravityAccMean.Y        | time    "         "         "  on Y                       | "    "             |
-| TimeGravityAccMean.Z        | time    "         "         "  on Z                       | "    "             |
-| TimeGravityAccStd.X         | time gravity acceleration mean std dev on X               | "    "             |
-| TimeGravityAccStd.Y         | time    "         "         "   "   " on Y                | "    "             |
-| TimeGravityAccStd.Z         | time    "         "         "   "   " on Z                | "    "             |
+| TimeGravityAccMean.Y        | time gravity acceleration mean on Y                       | "    "             |
+| TimeGravityAccMean.Z        | time gravity acceleration mean on Z                       | "    "             |
+| TimeGravityAccStd.X         | time gravity acceleration std dev on X                | "    "             |
+| TimeGravityAccStd.Y         | time gravity acceleration std dev on Y                 | "    "             |
+| TimeGravityAccStd.Z         | time gravity acceleration std dev on Z                 | "    "             |
 | TimeBodyAccJerkMean.X       | time body acceleration jerk mean on X                     | "    "             |
-| TimeBodyAccJerkMean.Y       | time   "       "         "    "  on Y                     | "    "             |
-| TimeBodyAccJerkMean.Z       | time   "       "         "    "  on Z                     | "    "             |
-| TimeBodyAccJerkStd.X        | time body acceleration jerk mean std dev on X             | "    "             |
-| TimeBodyAccJerkStd.Y        | time   "       "         "    "   "   "  on Y             | "    "             |
-| TimeBodyAccJerkStd.Z        | time   "       "         "    "   "   "  on Z             | "    "             |
+| TimeBodyAccJerkMean.Y       | time body acceleration jerk mean on Y                     | "    "             |
+| TimeBodyAccJerkMean.Z       | time body acceleration jerk mean on Z                     | "    "             |
+| TimeBodyAccJerkStd.X        | time body acceleration jerk std dev on X            | "    "             |
+| TimeBodyAccJerkStd.Y        | time body acceleration jerk std dev on Y         | "    "             |
+| TimeBodyAccJerkStd.Z        | time body acceleration jerk std dev on Z          | "    "             |
 | TimeBodyGyroMean.X          | time body gyroscope mean on X                             | "    "             |
-| TimeBodyGyroMean.Y          | time   "      "       "  on Y                             | "    "             |
-| TimeBodyGyroMean.Z          | time   "      "       "  on Z                             | "    "             |
-| TimeBodyGyroStd.X           | time body gyroscope mean std dev on X                     | "    "             |
-| TimeBodyGyroStd.Y           | time   "      "       "   "   "  on Y                     | "    "             |
-| TimeBodyGyroStd.Z           | time   "      "       "   "   "  on Y                     | "    "             |
+| TimeBodyGyroMean.Y          | time body gyroscope mean on Y                             | "    "             |
+| TimeBodyGyroMean.Z          | time body gyroscope mean on Z                             | "    "             |
+| TimeBodyGyroStd.X           | time body gyroscope std dev on X                    | "    "             |
+| TimeBodyGyroStd.Y           | time body gyroscope std dev on Y                    | "    "             |
+| TimeBodyGyroStd.Z           | time body gyroscope std dev on Y                     | "    "             |
 | TimeBodyGyroJerkMean.X      | time body gyroscope jerk mean on X                        | "    "             |
-| TimeBodyGyroJerkMean.Y      | time   "      "       "   "   on Y                        | "    "             |
-| TimeBodyGyroJerkMean.Z      | time   "      "       "   "   on Z                        | "    "             |
-| TimeBodyGyroJerkStd.X       | time body gyroscope jerk mean std  on X                   | "    "             |
-| TimeBodyGyroJerkStd.Y       | time   "      "       "   "    "   on Y                   | "    "             |
-| TimeBodyGyroJerkStd.Z       | time   "      "       "   "    "   on Z                   | "    "             |
+| TimeBodyGyroJerkMean.Y      | time body gyroscope jerk mean on Y                        | "    "             |
+| TimeBodyGyroJerkMean.Z      | time body gyroscope jerk mean on Z                        | "    "             |
+| TimeBodyGyroJerkStd.X       | time body gyroscope jerk std dev on X                   | "    "             |
+| TimeBodyGyroJerkStd.Y       | time body gyroscope jerk std dev on Y                   | "    "             |
+| TimeBodyGyroJerkStd.Z       | time body gyroscope jerk std dev on Z                   | "    "             |
 | TimeBodyAccMagMean          | time body acceleration magnitude mean                     | "    "             |
-| TimeBodyAccMagStd           | time body acceleration magnitude mean std dev             | "    "             |
+| TimeBodyAccMagStd           | time body acceleration magnitude std dev             | "    "             |
 | TimeGravityAccMagMean       | time gravity acceleration magnitude mean                  | "    "             |
-| TimeGravityAccMagStd        | time gravity acceleration magnitude mean std dev          | "    "             |
+| TimeGravityAccMagStd        | time gravity acceleration magnitude std dev          | "    "             |
 | TimeBodyAccJerkMagMean      | time body acceleration jerk magnitude mean                | "    "             |
 | TimeBodyAccJerkMagStd       | time body acceleration jerk magnitude std dev             | "    "             |
 | TimeBodyGyroMagMean         | time body gyroscope magnitude mean                        | "    "             |
-| TimeBodyGyroMagStd          | time body gyroscope magnitude mean std dev                | "    "             |
+| TimeBodyGyroMagStd          | time body gyroscope magnitude std dev                | "    "             |
 | TimeBodyGyroJerkMagMean     | time body gyroscope jerk magnitude mean                   | "    "             |
-| TimeBodyGyroJerkMagStd      | time body gyroscope jerk magnitude mean std dev           | "    "             |
+| TimeBodyGyroJerkMagStd      | time body gyroscope jerk magnitude std dev           | "    "             |
 |                             |                                                           |                    |
 | FreqBodyAccMean.X           | frequence body acceleration mean on X                     | "    "             |
-| FreqBodyAccMean.Y           | frequence   "       "         "  on Y                     | "    "             |
-| FreqBodyAccMean.Z           | frequence   "       "         "  on Z                     | "    "             |
-| FreqBodyAccStd.X            | frequence body acceleration mean std dev on X             | "    "             |
-| FreqBodyAccStd.Y            | frequence   "       "         "   "   "  on Y             | "    "             |
-| FreqBodyAccStd.Z            | frequence   "       "         "   "   " on Z              | "    "             |
+| FreqBodyAccMean.Y           | frequence body acceleration mean on Y                     | "    "             |
+| FreqBodyAccMean.Z           | frequence body acceleration mean on Z                     | "    "             |
+| FreqBodyAccStd.X            | frequence body acceleration std dev on X             | "    "             |
+| FreqBodyAccStd.Y            | frequence body acceleration std dev on Y             | "    "             |
+| FreqBodyAccStd.Z            | frequence body acceleration std dev on Z              | "    "             |
 | FreqBodyAccMeanFreq.X       | frequence gravity acceleration mean on X                  | "    "             |
-| FreqBodyAccMeanFreq.Y       | frequence    "         "         "  on Y                  | "    "             |
-| FreqBodyAccMeanFreq.Z       | frequence    "         "         "  on Z                  | "    "             |
-| FreqBodyAccJerkMean.X       | frequence gravity acceleration mean std dev on X          | "    "             |
-| FreqBodyAccJerkMean.Y       | frequence    "         "         "   "   " on Y           | "    "             |
-| FreqBodyAccJerkMean.Z       | frequence    "         "         "   "   " on Z           | "    "             |
+| FreqBodyAccMeanFreq.Y       | frequence gravity acceleration mean  on Y                  | "    "             |
+| FreqBodyAccMeanFreq.Z       | frequence gravity acceleration mean  on Z                  | "    "             |
+| FreqBodyAccJerkMean.X       | frequence gravity acceleration std dev on X          | "    "             |
+| FreqBodyAccJerkMean.Y       | frequence gravity acceleration std dev on Y           | "    "             |
+| FreqBodyAccJerkMean.Z       | frequence gravity acceleration std dev on Z           | "    "             |
 | FreqBodyAccJerkStd.X        | frequence body acceleration jerk mean on X                | "    "             |
-| FreqBodyAccJerkStd.Y        | frequence   "       "         "    "  on Y                | "    "             |
-| FreqBodyAccJerkStd.Z        | frequence   "       "         "    "  on Z                | "    "             |
+| FreqBodyAccJerkStd.Y        | frequence body acceleration jerk mean on Y                | "    "             |
+| FreqBodyAccJerkStd.Z        | frequence body acceleration jerk mean on Z                | "    "             |
 | FreqBodyAccJerkMeanFreq.X   | frequence body acceleration jerk mean frequence on X      | "    "             |
-| FreqBodyAccJerkMeanFreq.Y   |                                                           |                    |
-| FreqBodyAccJerkMeanFreq.Z   |                                                           |                    |
+| FreqBodyAccJerkMeanFreq.Y   | frequence body acceleration jerk mean frequence on Y                                                          |                    |
+| FreqBodyAccJerkMeanFreq.Z   | frequence body acceleration jerk mean frequence on Z                                                          |                    |
 | FreqBodyGyroMean.X          | frequence body gyroscope mean on X                        | "    "             |
-| FreqBodyGyroMean.Y          | frequence   "      "       "  on Y                        | "    "             |
-| FreqBodyGyroMean.Z          | frequence   "      "       "  on Y=Z                      | "    "             |
-| FreqBodyGyroStd.X           | frequence body gyroscope mean std dev on X                | "    "             |
-| FreqBodyGyroStd.Y           |     "       "      "       "   "   "  on Y                | "    "             |
-| FreqBodyGyroStd.Z           |     "       "      "       "   "   "  on Z                | "    "             |
+| FreqBodyGyroMean.Y          | frequence body gyroscope mean on Y                        | "    "             |
+| FreqBodyGyroMean.Z          | frequence body gyroscope mean on Y=Z                      | "    "             |
+| FreqBodyGyroStd.X           | frequence body gyroscope std dev on X                | "    "             |
+| FreqBodyGyroStd.Y           | frequence body gyroscope std dev on Y                | "    "             |
+| FreqBodyGyroStd.Z           | frequence body gyroscope std dev on Z                | "    "             |
 | FreqBodyGyroMeanFreq.X      | frequence body gyroscope mean frequence on X              | "    "             |
-| FreqBodyGyroMeanFreq.Y      |     "       "      "       "      "     on Y              | "    "             |
-| FreqBodyGyroMeanFreq.Z      |     "       "      "       "      "     on Z              | "    "             |
+| FreqBodyGyroMeanFreq.Y      | frequence body gyroscope mean frequence on Y              | "    "             |
+| FreqBodyGyroMeanFreq.Z      | frequence body gyroscope mean frequence on Z              | "    "             |
 | FreqBodyAccMagMean          | frequence body acceleration magnitude mean                | "    "             |
 | FreqBodyAccMagStd           | frequence body acceleration magnitude std dev             | "    "             |
 | FreqBodyAccMagMeanFreq      | frequence body acceleration magnitude mean frequence      | "    "             |
